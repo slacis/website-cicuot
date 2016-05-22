@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+<head>
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<title>dry/Goggle/Vegetarianism/</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<header id="main_navigation" class="clearfix">
+	<div class = "title">
+		<a href="index.html" class="name">dry/Goggle/</a>
+		<p class="namejap">ドライゴーグル</p>
+	</div>
+	<nav>
+	<%= link_to "Articles", posts_path %>
+	<a href="#">Reviews</a>
+	<a href="contact.html">Contact</a>
+	</nav>
+
+	</header>
 
 <%= yield %>
 
