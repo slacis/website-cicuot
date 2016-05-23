@@ -1,4 +1,4 @@
-/*@import 'normalize';*/
+@import 'normalize';
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 
 $dark: #6a6666;
@@ -88,6 +88,8 @@ hr {
 
 #main_navigation {
 	padding: 1.5em 5% 0.5em;
+	background-image: image-url('headerbglight.png');
+	background-repeat: repeat;
 	border-bottom: 1px solid $light;
 	.title {
 	float: left;
@@ -164,13 +166,15 @@ textarea {
 
 #mp_footer {
 	border-top: 1px solid $light;
+	background-image: image-url('headerbglight.png');
+	background-repeat: repeat;
 	.copyright {
-			padding: 2.5em 7%;
+		padding: 2.5em 7%;
 		float: left;
 		font-size: 1em;
 		margin: 0;
 	}
 }
 
-/*@import 'homepage';
-@import 'articlereview';*/
+@import 'homepage';
+@import 'articlereview';

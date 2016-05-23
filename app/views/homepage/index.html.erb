@@ -1,0 +1,29 @@
+	<div class="wrapper clearfix">
+		<div class="col-1 about hp_content">
+			<h2>About</h2>
+			<hr>
+			<p>If one is living in a foreign land, one must adapt in order to survive.</p>
+			<p>In a land where vegetarians are far and few, one must seek knowledge for a more 'fruitful' experience. That knowledge lies here.</p>
+
+		</div>
+		<div class="col-2 hp_content">
+			<h2>Articles</h2>
+			<hr>
+			<% @posts.each do |post| %>
+			<h3><a href="%"><%= link_to post.title, post %></h3>
+			<p class="date"><%= post.created_at.strftime("%A, %b, %d") %></p>
+			<% end %>
+		</div>
+		<div class="col-3 hp_content">
+			<h2>Reviews</h2>
+			<hr>
+			<h3><a href="#">Placeholder One</a></h3>
+			<p class="date">2016/5/22</p>
+			<h3>Placeholder Two</h3>
+			<p class="date">2016/5/22</p>
+			<h3>Placeholder Three</h3>
+			<p class="date">2016/5/22</p>
+
+		</div>
+		
+	</div>
