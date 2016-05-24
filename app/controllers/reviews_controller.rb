@@ -30,6 +30,11 @@ class ReviewsController < ApplicationController
 		end
 	end
 
+	def destroy
+		@review.destroy
+		redirect_to reviews_path
+	end
+
 
 	private
 
