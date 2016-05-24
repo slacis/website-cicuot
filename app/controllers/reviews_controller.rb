@@ -34,7 +34,7 @@ class ReviewsController < ApplicationController
 	private
 
 	def find_review
-		@review = Review.find(params[:id])
+		@review = Review.friendly.find(params[:id])
 	end
 	def review_params
 		params.require(:review).permit(:title, :content, :category, :link)
