@@ -1,7 +1,7 @@
 class ReviewsController < ApplicationController
 	before_action :find_review, only: [:show, :edit, :update, :destroy]
 	def index
-		@reviews = Review.all.order("created_at desc")
+		@reviews = Review.all.order("created_at desc").paginate(page: params[:page], per_page: 2)
 	end
 	def new
 		@review = Review.new
