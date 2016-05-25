@@ -9,6 +9,7 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<div class="container">
 	<header id="main_navigation" class="clearfix">
 		<div class = "title">
 		<%= link_to "dry/Goggle/", root_path, class: "name" %>
@@ -23,6 +24,9 @@
 	</header>
 
 <%= yield %>
+
+<div class="push"></div>
+</div>
 
 <footer id="mp_footer" class="clearfix">
 	<p class = "copyright">&copy;2016 Simon Lacis</p>

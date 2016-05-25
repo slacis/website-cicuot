@@ -7,6 +7,18 @@ $highlight: #99CCCC;
 $date: #587a8f;
 $white: #FFFFFF;
 
+/*Sticky footer*/
+html, body { height: 100%; margin: 0; }
+.container {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -2.5em;
+}
+.footer, .push {
+  height: 2.5em;
+}
+
 body {
 	/*font-family: 'M+ P Type-1 (basic latin) Black';*/
 	font-family: 'Noto Sans Japanese', serif;
@@ -191,6 +203,8 @@ textarea {
 		margin: 0;
 	}
 }
+
+
 
 @import 'homepage';
 @import 'articlereview';
