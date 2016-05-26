@@ -10,7 +10,10 @@
 
 .col-2, .col-3 {
 	width: 30%;
+	min-height: 60rem;
 	padding: 2em 2%;
+	background-image: image-url('headerbgnew.png');
+	background-repeat: repeat;
 }
 
 .hp_content {

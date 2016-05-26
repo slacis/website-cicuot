@@ -1,5 +1,7 @@
 #posts_wrapper {
 	padding: 3em 0;
+		background-image: image-url('headerbgnew.png');
+	background-repeat: repeat;
 	.post {
 		text-align: center;
 		.date {
@@ -8,9 +10,10 @@
 
 		}
 		h2 {
+			padding: 0 1em;
 			margin: 0;
 			font-size: 2em;
-			text-transform: uppercase;
+			/*text-transform: uppercase;''*/
 			a {
 				text-decoration: none;
 				color: $dark;
