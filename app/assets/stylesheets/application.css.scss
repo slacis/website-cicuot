@@ -1,5 +1,6 @@
 @import 'normalize';
 @import url(//fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(//mplus-fonts.sourceforge.jp/webfonts/basic_latin/mplus_webfonts.css);
 
 $dark: #6a6666;
 $light: #d8d7d7;
@@ -21,7 +22,8 @@ html, body { height: 100%; margin: 0; }
 
 body {
 	/*font-family: 'M+ P Type-1 (basic latin) Black';*/
-	font-family: 'Noto Sans Japanese', serif;
+	/*font-family: 'Noto Sans Japanese', serif;*/
+	font-family: 'M+ P Type-1 (basic latin) Regular', serif;
 }
 
 * {
@@ -111,13 +113,15 @@ hr {
 	float: left;
 	}
 	.name {
-	font-weight: 200;
+	font-family: 'Noto Sans Japanese', serif;
+	font-weight: 100;
 	font-size: 2.5em;
 	padding: 0 1rem;
 	text-decoration: none;
 	color: $dark;
 	}
 	.namejap {
+	font-family: 'Noto Sans Japanese', serif;
 	font-weight: 100;
 	font-size: 1.5em;
 	padding: 0em 3rem;
