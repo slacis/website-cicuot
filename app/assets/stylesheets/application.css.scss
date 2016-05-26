@@ -102,7 +102,7 @@ hr {
 		display: block;
 		height: 2px;
 		border: 0;
-		border-top: 1px solid $light;
+		border-top: 1px solid black;
 		margin: 2rem 0;
 	}
 
@@ -191,10 +191,11 @@ textarea {
 #page_title {
 	/*font-weight: 400;*/
 	text-align: center;
+	color: black;
 	border-bottom: 1px solid $light;
 	padding: 3em 0;
 	font-size: 1.2rem;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	background-image: image-url('headerbgnew.png');
 	background-repeat: repeat;
 
@@ -210,6 +211,12 @@ textarea {
 		font-size: 1em;
 		margin: 0;
 	}
+}
+
+.contactform {
+	background-image: image-url('headerbgnew.png');
+	background-repeat: repeat;
+	padding: 1em;
 }
 
 
