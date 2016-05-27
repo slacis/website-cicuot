@@ -19,6 +19,9 @@
 	<%= link_to "ARTICLES", posts_path %>
 	<%= link_to "REVIEWS", reviews_path %>
 	<%= link_to "CONTACT", new_contact_path %>
+	<% if user_signed_in? %>
+		<%= link_to "SIGN OUT", destroy_user_session_path, method: :delete %>
+		<% end %>
 	</nav>
 
 	</header>
