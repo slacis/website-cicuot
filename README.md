@@ -1,28 +1,3 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+A simple blog application created with Ruby on Rails, based off of a tutorial found on Youtube.
+This has not been updated in a long time and as such Github has found some vulnerabilities in some of the gems used. 
+I will address this shortly. If you're interested in building a similar blog, I reccommend watching the tutorial video on youtube. I'll add the link in soon.
